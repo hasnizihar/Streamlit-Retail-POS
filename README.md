@@ -18,15 +18,23 @@ Ensure you have Python 3.8+ installed.
 
 ### 2. Clone and Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/Streamlit-Retail-POS.git
+git clone https://github.com/hasnizihar/Streamlit-Retail-POS.git
 cd Streamlit-Retail-POS
 pip install -r requirements.txt
 ```
 
 ### 3. Run the Application
+The most critical step is to run the application using the Streamlit CLI, **not** the standard Python execution command:
 ```bash
 streamlit run app.py
 ```
+
+After running that command, your terminal will print out a local URL. 
+- **Example:** `Local URL: http://localhost:8501`
+- **Action:** Open your web browser (Chrome, Edge, etc.) and paste that exact URL into the top search bar to view your live POS dashboard.
+
+> [!CAUTION]
+> If you try to run the app using `python app.py`, it will print a warning and exit. Streamlit applications must be launched via the `streamlit run` engine to function correctly.
 
 ## Default Credentials
 When the application first connects to the database, it creates a default Admin user:
