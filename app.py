@@ -115,3 +115,11 @@ else:
         )
 
     pg.run()
+
+if __name__ == "__main__":
+    print("\n" + "="*50)
+    print("🚀 Streamlit Application")
+    print("="*50)
+    print("\nPlease run this application using the Streamlit CLI:\n")
+    print("    streamlit run app.py\n")
+    print("="*50 + "\n")
